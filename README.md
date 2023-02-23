@@ -13,7 +13,7 @@
 </div>
 
 <h2>:bookmark_tabs: Descrição</h2>
-<p>Projeto feito para melhorar minhas habilidades com HTML,CSS e JS, sendo parte do projeto desenvolver um jogo da velha sentre doi jogadores</p>
+<p>Projeto feito para melhorar minhas habilidades com HTML,CSS e JS, sendo parte do projeto desenvolver um jogo da velha entre dois jogadores</p>
 
 <h2>:dollar: Licença</h2>
 <b>Proibida a utilização dos arquivos para fins diferentes de aprendizado.</b>
