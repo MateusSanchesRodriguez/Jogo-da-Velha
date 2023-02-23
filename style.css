@@ -1,0 +1,83 @@
+body {
+  background-color: #212529;
+  color: white;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.containerNames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 2.5rem;
+}
+
+.namesPlayer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.labelPlayer {
+  padding-top: 0.5rem;
+}
+
+.containerNames input {
+  width: 25rem;
+  height: 2.5rem;
+  padding-top: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.containerNames button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.containerGame h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameBoard {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 14rem 14rem 14rem;
+  grid-template-rows: 14rem 14rem 14rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 44rem;
+  height: 44rem;
+}
+
+#gameBoard span {
+  background-color: #ddd;
+  display: grid;
+  place-content: center;
+  font-size: 12rem;
+  color: black;
+}
+
+#gameBoard span.win {
+  background-color: #25a340;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
